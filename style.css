@@ -1,0 +1,135 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  background: #f4f6f8;
+  color: #333;
+}
+
+.header {
+  background: linear-gradient(135deg, #0a66c2, #004182);
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 34px;
+}
+
+.badge {
+  display: inline-block;
+  background: #22c55e;
+  padding: 6px 14px;
+  border-radius: 20px;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.actions {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 18px;
+  margin: 5px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.btn.primary {
+  background: #22c55e;
+  color: #fff;
+}
+
+.btn.primary:hover {
+  background: #16a34a;
+}
+
+.btn.secondary {
+  background: #ffffff;
+  color: #0a66c2;
+}
+
+.btn.secondary:hover {
+  background: #e5efff;
+}
+
+.section {
+  background: #fff;
+  margin: 20px auto;
+  padding: 25px;
+  max-width: 900px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.section h2 {
+  color: #0a66c2;
+}
+
+.skills {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills li {
+  background: #e5efff;
+  margin: 6px;
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project a {
+  color: #0a66c2;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+.contact p {
+  margin: 6px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  color: #777;
+}
+
+/* WhatsApp Floating Button */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25d366;
+  color: #fff;
+  font-size: 26px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.whatsapp-float:hover {
+  background: #1ebe5d;
+}
