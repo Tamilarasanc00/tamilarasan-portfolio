@@ -5,40 +5,48 @@ body {
   color: #333;
 }
 
+/* HEADER */
 .header {
   background: linear-gradient(135deg, #0a66c2, #004182);
   color: #fff;
   text-align: center;
-  padding: 40px 20px;
+  padding: 45px 20px;
 }
 
 .header h1 {
   margin: 0;
-  font-size: 34px;
+  font-size: 36px;
+}
+
+.headline {
+  margin-top: 8px;
+  font-size: 16px;
+  opacity: 0.95;
 }
 
 .badge {
   display: inline-block;
   background: #22c55e;
-  padding: 6px 14px;
+  padding: 6px 16px;
   border-radius: 20px;
-  margin-top: 10px;
+  margin-top: 12px;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
+/* ACTION BUTTONS */
 .actions {
-  margin-top: 20px;
+  margin-top: 22px;
 }
 
 .btn {
   display: inline-block;
   padding: 10px 18px;
-  margin: 5px;
+  margin: 6px;
   border-radius: 25px;
   text-decoration: none;
   font-size: 14px;
-  transition: 0.3s;
+  transition: 0.3s ease;
 }
 
 .btn.primary {
@@ -59,19 +67,37 @@ body {
   background: #e5efff;
 }
 
+/* SECTIONS */
 .section {
-  background: #fff;
-  margin: 20px auto;
-  padding: 25px;
-  max-width: 900px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  background: #ffffff;
+  margin: 22px auto;
+  padding: 28px;
+  max-width: 950px;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.06);
 }
 
 .section h2 {
   color: #0a66c2;
+  margin-bottom: 12px;
 }
 
+.section h3 {
+  margin-top: 18px;
+  color: #333;
+}
+
+/* LISTS */
+.section ul {
+  padding-left: 20px;
+}
+
+.section ul li {
+  line-height: 1.7;
+  margin-bottom: 6px;
+}
+
+/* SKILLS */
 .skills {
   list-style: none;
   padding: 0;
@@ -87,8 +113,30 @@ body {
   font-size: 14px;
 }
 
+/* HIGHLIGHTS */
+.highlights li {
+  font-weight: 500;
+}
+
+/* EXPERIENCE */
+.role {
+  margin-top: 6px;
+  font-size: 15px;
+  color: #555;
+}
+
+/* PROJECTS */
 .project {
-  margin-bottom: 20px;
+  margin-bottom: 26px;
+}
+
+.project h4 {
+  margin-bottom: 6px;
+}
+
+.project .tech {
+  font-size: 14px;
+  color: #555;
 }
 
 .project a {
@@ -101,33 +149,35 @@ body {
   text-decoration: underline;
 }
 
+/* CONTACT */
 .contact p {
   margin: 6px 0;
 }
 
+/* FOOTER */
 footer {
   text-align: center;
-  padding: 15px;
+  padding: 16px;
   font-size: 14px;
   color: #777;
 }
 
-/* WhatsApp Floating Button */
+/* WHATSAPP BUTTON */
 .whatsapp-float {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 22px;
+  right: 22px;
   background: #25d366;
   color: #fff;
   font-size: 26px;
-  width: 55px;
-  height: 55px;
+  width: 56px;
+  height: 56px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 
 .whatsapp-float:hover {
